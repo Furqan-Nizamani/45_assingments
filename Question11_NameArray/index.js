@@ -1,17 +1,10 @@
 "use strict";
-/*
 
-Names: Store the names of a few of your friends in a array called names.
-Print each person’s name by accessing each element in the list, one at a time.
-
-*/
-let names = ["AbdulRaqueb", "Furqan", "AjmalKhan", "Samad"];
-// 1st condition.
-for (let i = 0; i < names.length; i++) {
-    console.log(`Hello Dear ${names[i]}, how are you?`);
-}
-// 2nd condition.
-console.log(`Hello Dear ${names[0]}, How are you?`);
-console.log(`Hello Dear ${names[1]}, How are you?`);
-console.log(`Hello Dear ${names[2]}, How are you?`);
-console.log(`Hello Dear ${names[3]}, How are you?`);
+var friend = ["Zia Khan", "Abdul Raqeeb", "Zabiullah", "Ammar"];
+// to access arry when can use loop but in the assingment
+// it is said that access each element one at a time 
+// so i think sir is just want jo check that do we know array index rules
+console.log(friend[0]);
+console.log(friend[1]);
+console.log(friend[2]);
+console.log(friend[3]);
